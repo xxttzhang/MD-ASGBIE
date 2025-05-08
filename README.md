@@ -26,7 +26,7 @@ Binding free energy is estimated using the **ASGBIE method** (Alanine Scanning G
 
 This method offers a balance between computational efficiency and biophysical interpretability, making it suitable for evaluating peptide binding hotspots in complex membrane environments.
 
-# Getting Started
+# 🔬Getting Started
 
 This tutorial guides you through setting up and simulating membrane protein–peptide systems using AMBER, with an emphasis on binding free energy calculations via the ASGBIE method.
 
@@ -37,12 +37,9 @@ This tutorial guides you through setting up and simulating membrane protein–pe
 ### Software
 - [AMBER](https://ambermd.org/) (tested with Amber20 or later)
 - [PACKMOL-Memgen](https://ambermd.org/tutorials/advanced/tutorial20/)
-- Python 3.x
-  - `pandas`
-  - `matplotlib`
-  - `re`
-  - `os`
-- GPU cluster with LSF queue system (e.g., using `bsub`)
+- Amber20
+- Rosetta2017
+- Python3
 
 ### External Resources
 - [OPM Database](https://opm.phar.umich.edu) — to obtain membrane-embedded protein orientations
