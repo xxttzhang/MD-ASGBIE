@@ -1,0 +1,1 @@
+fixbb.static.linuxgccrelease -in:file:s ../low.pdb -out:path:all ./ -resfile resfile.in -overwrite -ex1:level 2 -ex2:level 2 -ex3:level 0 -ex4:level 0 -nstruct 1

@@ -1,0 +1,84 @@
+Membrane protein orientation using a knowledge-based statistical potential
+(c) Tim Nugent 2013
+Version 1.15
+
+Performing GA search search...
+Lowest energy 1252.425200 after 1 function evaluations.
+Lowest energy 1216.919800 after 2 function evaluations.
+Lowest energy 1204.012100 after 4 function evaluations.
+Lowest energy 1195.536200 after 5 function evaluations.
+Lowest energy 1194.926500 after 16 function evaluations.
+Lowest energy 1182.399900 after 24 function evaluations.
+Lowest energy 1178.127700 after 70 function evaluations.
+Lowest energy 1177.033700 after 294 function evaluations.
+Lowest energy 1172.683400 after 315 function evaluations.
+Lowest energy 1161.327700 after 488 function evaluations.
+Lowest energy 1151.084700 after 643 function evaluations.
+*** Convergence detected!
+
+Performing GA search search...
+Lowest energy 1232.325900 after 1 function evaluations.
+Lowest energy 1202.738800 after 2 function evaluations.
+Lowest energy 1195.536200 after 4 function evaluations.
+Lowest energy 1168.313800 after 38 function evaluations.
+Lowest energy 1166.797400 after 326 function evaluations.
+Lowest energy 1153.624200 after 1596 function evaluations.
+Lowest energy 1152.530900 after 9160 function evaluations.
+Lowest energy 1151.452700 after 27782 function evaluations.
+*** Convergence detected!
+
+Performing GA search search...
+Lowest energy 1237.785000 after 1 function evaluations.
+Lowest energy 1196.450400 after 2 function evaluations.
+Lowest energy 1195.536200 after 3 function evaluations.
+Lowest energy 1194.085100 after 15 function evaluations.
+Lowest energy 1178.475200 after 26 function evaluations.
+Lowest energy 1176.819600 after 68 function evaluations.
+Lowest energy 1160.861500 after 100 function evaluations.
+Lowest energy 1154.941100 after 227 function evaluations.
+Lowest energy 1153.702500 after 5042 function evaluations.
+Lowest energy 1152.058800 after 6614 function evaluations.
+Lowest energy 1150.887300 after 34229 function evaluations.
+Lowest energy 1148.813700 after 38322 function evaluations.
+*** Convergence detected!
+
+Performing GA search search...
+Lowest energy 1223.795900 after 1 function evaluations.
+Lowest energy 1195.536200 after 2 function evaluations.
+Lowest energy 1187.811200 after 13 function evaluations.
+Lowest energy 1177.847600 after 25 function evaluations.
+Lowest energy 1170.188600 after 26 function evaluations.
+Lowest energy 1159.422000 after 797 function evaluations.
+Lowest energy 1155.882100 after 2037 function evaluations.
+Lowest energy 1154.389300 after 3165 function evaluations.
+Lowest energy 1151.569600 after 8933 function evaluations.
+Lowest energy 1150.008400 after 28705 function evaluations.
+*** Convergence detected!
+
+Performing GA search search...
+Lowest energy 1195.536200 after 1 function evaluations.
+Lowest energy 1162.878200 after 35 function evaluations.
+Lowest energy 1159.022900 after 512 function evaluations.
+Lowest energy 1156.364100 after 569 function evaluations.
+Lowest energy 1154.899500 after 939 function evaluations.
+Lowest energy 1152.523600 after 3432 function evaluations.
+Lowest energy 1150.655700 after 29941 function evaluations.
+*** Convergence detected!
+
+X-axis rotation from starting position (degrees):
+Lowest energy:	17.8576
+Mean:		18.6248
+St. error:	7.77052
+Y-axis rotation from starting position (degrees):
+Lowest energy:	44.6425
+Mean:		99.1239
+St. error:	45.3243
+Z-axis translation from starting position (angstroms):
+Lowest energy:	-0.216128
+Mean:		-0.429397
+St. error:	7.67447
+
+Inverting to satisfy N-terminal constraint...
+Total function calls:	2256587
+Final Energy:		1148.8137
+Written ./comin_EMBED.pdb

@@ -1,0 +1,189 @@
+Sender: LSF System <lsfadmin@gpu02>
+Subject: Job 151827: <mut_34_ARG> in cluster <platform> Done
+
+Job <mut_34_ARG> was submitted from host <login02> by user <zhzhang> in cluster <platform> at Thu Apr 24 10:02:16 2025
+Job was executed on host(s) <gpu02>, in queue <gpu>, as user <zhzhang> in cluster <platform> at Fri Apr 25 13:40:33 2025
+</data/home/zhzhang> was used as the home directory.
+</data/home/zhzhang/xtzhang/Amylin/san45_mut/mut_san45_CTR/mut_34/md5/mut_34_ARG> was used as the working directory.
+Started at Fri Apr 25 13:40:33 2025
+Terminated at Fri Apr 25 19:18:37 2025
+Results reported at Fri Apr 25 19:18:37 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -J mut_34_ARG
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 1
+#BSUB -q gpu
+#BSUB -o test%J.out
+#BSUB -e test%J.err
+nvidia-smi > out
+
+##################################################################
+source ~/ylcong/.bashrc
+###cuda
+export CUDA_HOME=/data/apps/cuda-10.2/
+export PATH=/data/apps/cuda-10.2/bin:$PATH
+export LD_LIBRARY_PATH=/data/apps/cuda-10.2/lib64:$LD_LIBRARY_PATH
+##################################################################
+#command:
+pmemd -O -i $PWD/min1.in -o min1.out -p sol_com.prmtop -c sol_com.inpcrd  -r min1.rst -ref sol_com.inpcrd
+pmemd.cuda -O -i $PWD/min2.in -o min2.out -p sol_com.prmtop -c min1.rst -r min2.rst
+pmemd.cuda -O -i $PWD/heat1.in  -o heat1.out  -p sol_com.prmtop -c min2.rst -r heat1.rst  -ref min2.rst -x heat1.nc
+pmemd.cuda -O -i $PWD/heat2.in  -o heat2.out  -p sol_com.prmtop -c heat1.rst -r heat2.rst  -ref heat1.rst -x heat2.nc
+pmemd.cuda -O -i $PWD/back.in -o back.out -p sol_com.prmtop -c heat2.rst  -r back.rst -x back.nc -ref heat2.rst
+pmemd.cuda -O -i $PWD/Calpha.in -o Calpha.out -p sol_com.prmtop -c back.rst  -r Calpha.rst -x Calpha.nc -ref back.rst
+pmemd.cuda -O -i $PWD/prod.in -o prod.out -p sol_com.prmtop -c Calpha.rst  -r prod.rst -x prod.nc -ref Calpha.rst
+
+cpptraj < trajin_rmsd
+rm heat1.nc heat2.nc back.nc Calpha.nc 
+
+#let "i=2"
+#while [ $i -le 2 ]
+#do
+#let "j=i-1"
+#pmemd.cude -O -i md1.in  -o md${i}.out -p pep.top -c md${j}.rst -r md${i}.rst -x md${i}.crd </dev/null
+#let "i++"
+#done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   20265.99 sec.
+    Max Memory :                                 513 MB
+    Average Memory :                             496.23 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   20283 sec.
+    Turnaround time :                            119781 sec.
+
+The output (if any) follows:
+
+
+CPPTRAJ: Trajectory Analysis. V18.00
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 04/25/25 19:18:36
+| Available memory: 181.821 GB
+
+INPUT: Reading input from 'STDIN'
+  [parm ./com.prmtop]
+	Reading './com.prmtop' as Amber Topology
+	Radius Set: H(N)-modified Bondi radii (mbondi2)
+  [trajin prod.nc]
+	Reading 'prod.nc' as Amber NetCDF
+Warning: Trajectory box type is 'Orthogonal' but topology box type is 'None'.
+Warning: Setting topology box information from trajectory.
+  [reference ./com.pdb]
+	Reading './com.pdb' as PDB
+Warning: PDB line length is short (67 chars, expected 80).
+	Setting active reference for distance-based masks: 'com.pdb'
+  [autoimage]
+    AUTOIMAGE: To box center based on center of mass, anchor is first molecule.
+  [rms com reference mass out rms.dat :1-408@CA,C,N time 0.01]
+    RMSD: (:1-408@CA,C,N), reference is "com.pdb:1" (:1-408@CA,C,N), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [rms pep reference mass out rms.dat :1-37@CA,C,N time 0.01]
+    RMSD: (:1-37@CA,C,N), reference is "com.pdb:1" (:1-37@CA,C,N), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [rms pro reference mass out rms.dat :38-408@CA,C,N time 0.01]
+    RMSD: (:38-408@CA,C,N), reference is "com.pdb:1" (:38-408@CA,C,N), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [rms bind reference mass out rms.dat ((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N)) time 0.01]
+    RMSD: (((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N))), reference is "com.pdb:1" (((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N))), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: com.prmtop, 6699 atoms, 408 res, box: Orthogonal, 2 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'prod.nc' is a NetCDF AMBER trajectory with coordinates, time, box, Parm com.prmtop (Orthogonal box) (reading 2000 of 2000)
+  Coordinate processing will occur on 2000 frames.
+
+REFERENCE FRAMES (1 total):
+    0: com.pdb:1
+	Active reference frame for distance-based masks is 'com.pdb:1'
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'com.prmtop' (5 actions):
+  0: [autoimage]
+	Using first molecule as anchor.
+	1 molecules are fixed to anchor: 2
+	0 molecules are mobile.
+  1: [rms com reference mass out rms.dat :1-408@CA,C,N time 0.01]
+	Target mask: [:1-408@CA,C,N](1224)
+	Reference mask: [:1-408@CA,C,N](1224)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+  2: [rms pep reference mass out rms.dat :1-37@CA,C,N time 0.01]
+	Target mask: [:1-37@CA,C,N](111)
+	Reference mask: [:1-37@CA,C,N](111)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+  3: [rms pro reference mass out rms.dat :38-408@CA,C,N time 0.01]
+	Target mask: [:38-408@CA,C,N](1113)
+	Reference mask: [:38-408@CA,C,N](1113)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+  4: [rms bind reference mass out rms.dat ((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N)) time 0.01]
+	Target mask: [((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N))](354)
+	Reference mask: [((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N))](354)
+Warning: Coordinates are being rotated and box coordinates are present.
+Warning: Unit cell vectors are NOT rotated; imaging will not be possible
+Warning:  after the RMS-fit is performed.
+----- prod.nc (1-2000, 1) -----
+ 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Complete.
+
+Read 2000 frames and processed 2000 frames.
+TIME: Avg. throughput= 4155.3088 frames / second.
+
+ACTION OUTPUT:
+TIME: Analyses took 0.0000 seconds.
+
+DATASETS (4 total):
+	com "com" (double, rms), size is 2000
+	pep "pep" (double, rms), size is 2000
+	pro "pro" (double, rms), size is 2000
+	bind "bind" (double, rms), size is 2000
+
+DATAFILES (1 total):
+  rms.dat (Standard Data File):  com pep pro bind
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.01%)
+TIME:		Trajectory Process : 0.4813 s ( 98.63%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0066 s (  1.36%)
+TIME:		Other              : 0.0000 s (  0.00%)
+TIME:	Run Total 0.4880 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.6134 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
+
+
+PS:
+
+Read file <test151827.err> for stderr output of this job.
+
