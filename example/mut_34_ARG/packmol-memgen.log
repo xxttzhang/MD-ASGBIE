@@ -1,0 +1,98 @@
+04/21/2025 09:30:51 PM:DEBUG:
+Execution line:     /data/home/zhzhang/yhe/apps/amber22/amber22/bin/packmol-memgen --pdb ./com.pdb --lipids POPC:CHL1 --ratio 9:1 --salt --salt_c Na+ --saltcon 0.15 --dist 10 --dist_wat 15 --notprotonate --nottrim
+04/21/2025 09:30:51 PM:DEBUG:
+Water model was not set. Using tip3p for ff14SB
+04/21/2025 09:30:52 PM:INFO:
+Preprocessing ./com.pdb. This might take a minute.
+04/21/2025 09:30:52 PM:DEBUG:
+Orienting the protein using MEMEMBED...
+04/21/2025 09:31:11 PM:DEBUG:
+Estimating the volume by building a grid (PDBREMIX)...
+04/21/2025 09:31:26 PM:DEBUG:
+
+ Estimated values for input protein:
+
+ Input PDB                = ./comin_EMBED.pdb
+ Charge                   = 11       
+ Mass                     = 47749.34800000201    Da
+ Density                  = 0.85         Da/A^3
+ Estimated volume         = 42685.5      A^3
+     in upper leaflet     = 13756.0      A^3
+     in lower leaflet     = 13722.62     A^3
+     in upper water box   = 1119         A^3
+     in lower water box   = 14088.25     A^3
+            
+04/21/2025 09:31:26 PM:INFO:
+
+ Information for packing:
+
+ Input PDB(s)                     = ['./com.pdb']
+ Output PDB                       = bilayer_com.pdb
+ Packmol output and log prefix    = packmol  
+ Lipids                           = ['POPC:CHL1']
+ Lipid ratio                      = ['9:1']  
+ Solvents                         = WAT      
+ Solvent ratio                    = 1        
+ Salt concentration            (M)= 0.15     
+ Distance to boundaries        (A)= 10.0     
+ Minimum water distance        (A)= 15.0     
+ Packmol loops                    = 20       
+ Packmol loops for All-together   = 100      
+04/21/2025 09:31:26 PM:DEBUG:
+
+ Box information:
+ x_min                    = -46.820585220628445
+ x_max                    = 46.820585220628445
+ x_len                    = 93.64117044125689
+
+ y_min                    = -46.820585220628445
+ y_max                    = 46.820585220628445
+ y_len                    = 93.64117044125689
+
+ z_min                    = -73.904  
+ z_max                    = 46.43000000000001
+ z_len                    = 120.334  
+ 
+04/21/2025 09:31:26 PM:DEBUG:
+Experimental value for POPC volume not available in parm file. Using estimated 1227 A^3 instead...
+04/21/2025 09:31:26 PM:INFO:
+Adding 5A padding to the sterol CHL1 components to avoid piercing in the periodic boundary
+04/21/2025 09:31:26 PM:INFO:
+Adding 5A padding to the sterol CHL1 components to avoid piercing in the periodic boundary
+04/21/2025 09:31:26 PM:DEBUG:
+
+Salt and charge info:
+Upper positive charges   = 12.5     
+Lower positive charges   = 33.5     
+Upper negative charges   = 16.5     
+Lower negative charges   = 40.5     
+Charge imbalance         = 0        
+Upper salt number        = 18       
+Lower salt number        = 39       
+            
+04/21/2025 09:31:27 PM:DEBUG:
+
+                Lower water box vol    = 432272.07 A^3
+                Upper water box vol    = 204331.29 A^3
+                Mem. upper leaflet vol = 196630.37 A^3
+                Mem. lower leaflet vol = 196663.75 A^3
+
+                
+04/21/2025 09:31:27 PM:DEBUG:
+Script for packmol written to packmol.inp
+04/21/2025 09:31:27 PM:INFO:
+
+Running Packmol...
+04/21/2025 09:33:43 PM:DEBUG:
+
+Individual packing processes complete. Initiating all-together packing. This might take a while!
+04/21/2025 10:00:49 PM:INFO:
+Transforming to AMBER
+04/21/2025 10:00:50 PM:INFO:
+Sterols were packed. Potential piercing lipid tails will be searched
+04/21/2025 10:00:50 PM:WARNING:
+Lipid piercing finder failed. Check your structure manually in case of clashing lipid tails!
+04/21/2025 10:00:50 PM:DEBUG:
+Deleting temporary files...
+04/21/2025 10:00:50 PM:INFO:
+#Packing process finished. Check your final structure, particularly for lipids inserted in proteins, protein tunnels or piercing rings!#

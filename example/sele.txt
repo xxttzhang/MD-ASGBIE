@@ -1,0 +1,2 @@
+mut_34_ARG
+mut_34_GLN

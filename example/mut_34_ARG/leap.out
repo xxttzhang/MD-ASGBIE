@@ -1,0 +1,1951 @@
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/prep to search path.
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib to search path.
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm to search path.
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd to search path.
+-s: Ignoring startup file: leaprc
+-f: Source leap.in.
+
+Welcome to LEaP!
+Sourcing: ./leap.in
+----- Source: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.mimetic.ff15ipq
+----- Source of /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.mimetic.ff15ipq done
+Log file: ./leap.log
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/parm15ipq_10.3.dat
+Reading title:
+Parm15 developmental parameter set
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.ff15ipq-m
+Reading force field modification type file (frcmod)
+Reading title:
+ff15ipq-m extended parameter set for artificial residues
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/amino15ipq_10.0.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/aminoct15ipq_10.0.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/aminont15ipq_10.0.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/ff15ipq-m.lib
+----- Source: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.water.spceb
+----- Source of /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.water.spceb done
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/atomic_ions.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/solvents.lib
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.spceb
+Reading force field modification type file (frcmod)
+Reading title:
+SPC/Eb water model; Takemura et al. J Phys Chem B 116 6279-6287 (2012)
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.ionsjc_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and SPC/E water from Joung & Cheatham JPCB (2008)
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.ions234lm_126_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for SPC/E water model (12-6 normal usage set)
+----- Source: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.lipid21
+----- Source of /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.lipid21 done
+Log file: ./leap.log
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/lipid21.dat
+Reading title:
+AMBER Lipid21 v1.0 C. J. Dickson, R.C. Walker, I.R. Gould.
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/lipid21.lib
+Loading PDB file: ./bilayer_com.pdb
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 1 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 1 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 2 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 2 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 3 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 3 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 4 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 4 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 5 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 5 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 6 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 6 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 7 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 7 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 8 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 8 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 9 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 9 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 10 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 10 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 11 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 11 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 12 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 12 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 13 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 13 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 14 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 14 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 15 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 15 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 16 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 16 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 17 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 17 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 18 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 18 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 19 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 19 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 20 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 20 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 21 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 21 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 22 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 22 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 23 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 23 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 24 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 24 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 25 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 25 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 26 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 26 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 27 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 27 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 28 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 28 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 29 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 29 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 30 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 30 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 31 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 31 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 32 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 32 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 33 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 33 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 34 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 34 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 35 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 35 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 36 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 36 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 37 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 37 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 38 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 38 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 39 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 39 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 40 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 40 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 41 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 41 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 42 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 42 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 43 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 43 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 44 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 44 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 45 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 45 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 46 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 46 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 47 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 47 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 48 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 48 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 49 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 49 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 50 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 50 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 51 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 51 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 52 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 52 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 53 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 53 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 54 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 54 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 55 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 55 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 56 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 56 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 57 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 57 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 58 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 58 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 59 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 59 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 60 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 60 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 61 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 61 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 62 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 62 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 63 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 63 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 64 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 64 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 65 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 65 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 66 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 66 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 67 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 67 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 68 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 68 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 69 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 69 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 70 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 70 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 71 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 71 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 72 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 72 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 73 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 73 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 74 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 74 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 75 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 75 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 76 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 76 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 77 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 77 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 78 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 78 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 79 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 79 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 80 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 80 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 81 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 81 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 82 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 82 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 83 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 83 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 84 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 84 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 85 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 85 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 86 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 86 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 87 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 87 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 88 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 88 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 89 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 89 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 90 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 90 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 91 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 91 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 92 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 92 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 93 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 93 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 94 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 94 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 95 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 95 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 96 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 96 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 97 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 97 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 98 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 98 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 99 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 99 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 100 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 100 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 101 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 101 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 102 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 102 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 103 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 103 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 104 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 104 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 105 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 105 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 106 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 106 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 107 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 107 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 108 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 108 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 109 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 109 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 110 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 110 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 111 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 111 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 112 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 112 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 113 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 113 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 114 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 114 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 115 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 115 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 116 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 116 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 1 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 1 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 2 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 2 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 3 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 3 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 4 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 4 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 5 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 5 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 6 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 6 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 7 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 7 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 8 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 8 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 9 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 9 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 10 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 10 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 11 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 11 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 12 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 12 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 13 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 13 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 14 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 14 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 15 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 15 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 16 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 16 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 17 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 17 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 18 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 18 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 19 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 19 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 20 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 20 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 21 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 21 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 22 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 22 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 23 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 23 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 24 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 24 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 25 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 25 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 26 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 26 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 27 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 27 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 28 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 28 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 29 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 29 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 30 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 30 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 31 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 31 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 32 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 32 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 33 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 33 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 34 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 34 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 35 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 35 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 36 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 36 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 37 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 37 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 38 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 38 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 39 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 39 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 40 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 40 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 41 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 41 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 42 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 42 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 43 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 43 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 44 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 44 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 45 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 45 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 46 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 46 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 47 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 47 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 48 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 48 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 49 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 49 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 50 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 50 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 51 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 51 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 52 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 52 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 53 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 53 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 54 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 54 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 55 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 55 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 56 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 56 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 57 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 57 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 58 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 58 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 59 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 59 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 60 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 60 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 61 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 61 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 62 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 62 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 63 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 63 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 64 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 64 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 65 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 65 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 66 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 66 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 67 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 67 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 68 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 68 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 69 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 69 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 70 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 70 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 71 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 71 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 72 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 72 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 73 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 73 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 74 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 74 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 75 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 75 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 76 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 76 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 77 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 77 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 78 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 78 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 79 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 79 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 80 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 80 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 81 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 81 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 82 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 82 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 83 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 83 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 84 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 84 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 85 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 85 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 86 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 86 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 87 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 87 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 88 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 88 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 89 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 89 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 90 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 90 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 91 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 91 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 92 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 92 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 93 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 93 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 94 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 94 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 95 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 95 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 96 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 96 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 97 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 97 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 98 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 98 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 99 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 99 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 100 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 100 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 101 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 101 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 102 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 102 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 103 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 103 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 104 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 104 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 105 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 105 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 106 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 106 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 107 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 107 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 108 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 108 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 109 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 109 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 110 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 110 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 111 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 111 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 112 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 112 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 113 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 113 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 114 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 114 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 115 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 115 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 116 ;
+this residue is split into PA and PC.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+Name change in pdb file residue 116 ;
+this residue is split into PC and OL.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Note.
+464 residues had naming warnings.
+Thus, there are split residues;
+residue sequence numbers will not correspond to those in the pdb.
+  total atoms in file: 103511
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 2415 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLN	1
+	CHL	26
+	CTYR	1
+	NLYS	1
+	NPRO	1
+	WAT	21233
+  )
+ (no restraints)
+Writing pdb file: sol_com.pdb
+   printing CRYST1 record to PDB file with box info
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NLYS -> LYS
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CTYR -> TYR
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NPRO -> PRO
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CGLN -> GLN
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 468; Notes = 1.

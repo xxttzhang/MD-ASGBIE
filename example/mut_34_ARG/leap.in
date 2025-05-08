@@ -1,0 +1,14 @@
+source leaprc.mimetic.ff15ipq
+source leaprc.water.spceb
+source leaprc.lipid21
+c = loadpdb ./bilayer_com.pdb
+
+bond c.2.SG c.7.SG
+bond c.55.SG c.81.SG
+bond c.72.SG c.112.SG
+bond c.95.SG c.134.SG
+bond c.219.SG c.289.SG
+set c box {93.64117044125689 93.64117044125689 120.334}
+saveamberparm c sol_com.prmtop sol_com.inpcrd
+savepdb c sol_com.pdb
+quit
