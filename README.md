@@ -47,7 +47,7 @@ This tutorial guides you through setting up and simulating membrane protein–pe
 
 ---
 
-## Example Workflow
+##📌 Example Workflow
 
 ### Step 1: Initial System Construction
 Run `1run_leap0.sh` to:
@@ -147,13 +147,3 @@ Run `7rmsd.sh` to:
 
 ---
 
-## ASGBIE Method Overview
-
-**ASGBIE** (Alanine Scanning Generalized Born with Interaction Entropy) combines:
-- MM/GBSA end-point energy analysis  
-- In silico alanine scanning to assess residue contributions  
-- Interaction entropy to improve entropic term estimation  
-
-This hybrid method is both computationally tractable and more accurate than traditional MM/GBSA, especially for protein–peptide interfaces.
-
----
