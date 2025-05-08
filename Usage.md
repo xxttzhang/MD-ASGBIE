@@ -1,4 +1,4 @@
-#📌 Example Workflow
+# 📌 Example Workflow
 
 ## Step 1: Initial System Construction
 Run `1run_leap0.sh` to:
