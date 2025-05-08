@@ -1,0 +1,90 @@
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/prep to search path.
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib to search path.
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm to search path.
+-I: Adding /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd to search path.
+-s: Ignoring startup file: leaprc
+-f: Source leap_0.in.
+
+Welcome to LEaP!
+Sourcing: ./leap_0.in
+----- Source: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.mimetic.ff15ipq
+----- Source of /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.mimetic.ff15ipq done
+Log file: ./leap.log
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/parm15ipq_10.3.dat
+Reading title:
+Parm15 developmental parameter set
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.ff15ipq-m
+Reading force field modification type file (frcmod)
+Reading title:
+ff15ipq-m extended parameter set for artificial residues
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/amino15ipq_10.0.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/aminoct15ipq_10.0.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/aminont15ipq_10.0.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/ff15ipq-m.lib
+----- Source: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.water.spceb
+----- Source of /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/cmd/leaprc.water.spceb done
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/atomic_ions.lib
+Loading library: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/lib/solvents.lib
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.spceb
+Reading force field modification type file (frcmod)
+Reading title:
+SPC/Eb water model; Takemura et al. J Phys Chem B 116 6279-6287 (2012)
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.ionsjc_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and SPC/E water from Joung & Cheatham JPCB (2008)
+Loading parameters: /data/home/zhzhang/ylcong/apps/amber/amber18/dat/leap/parm/frcmod.ions234lm_126_spce
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for SPC/E water model (12-6 normal usage set)
+Using H(N)-modified Bondi radii
+Loading PDB file: ./complex.pdb
+  total atoms in file: 3366
+  Leap added 3333 missing atoms according to residue templates:
+       3333 H / lone pairs
+Writing pdb file: com.pdb
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NLYS -> LYS
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CTYR -> TYR
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NPRO -> PRO
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CGLN -> GLN
+Checking Unit.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Warning!
+The unperturbed charge of the unit (11.000000) is not zero.
+
+/data/home/zhzhang/ylcong/apps/amber/amber18/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 1435 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLN	1
+	CTYR	1
+	NLYS	1
+	NPRO	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 5; Notes = 1.

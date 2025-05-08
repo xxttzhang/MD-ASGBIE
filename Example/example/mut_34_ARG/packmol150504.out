@@ -1,0 +1,109 @@
+Sender: LSF System <lsfadmin@c049>
+Subject: Job 150504: <packmol> in cluster <platform> Done
+
+Job <packmol> was submitted from host <login02> by user <zhzhang> in cluster <platform> at Mon Apr 21 21:30:06 2025
+Job was executed on host(s) <c049>, in queue <normal>, as user <zhzhang> in cluster <platform> at Mon Apr 21 21:30:46 2025
+</data/home/zhzhang> was used as the home directory.
+</data/home/zhzhang/xtzhang/Amylin/san45_mut/mut_san45_CTR/mut_34/mut_34_ARG> was used as the working directory.
+Started at Mon Apr 21 21:30:46 2025
+Terminated at Mon Apr 21 22:00:50 2025
+Results reported at Mon Apr 21 22:00:50 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -J packmol
+#BSUB -q normal
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -o packmol%J.out
+
+##################################################################
+source ~/yhe/.bashrc
+##################################################################
+packmol-memgen --pdb ./com.pdb --lipids POPC:CHL1 --ratio 9:1 --salt --salt_c Na+ --saltcon 0.15 --dist 10 --dist_wat 15 --notprotonate --nottrim
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1795.65 sec.
+    Max Memory :                                 127 MB
+    Average Memory :                             122.38 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   1804 sec.
+    Turnaround time :                            1844 sec.
+
+The output (if any) follows:
+
+PMEMD.CUDA not found. Setting path to PMEMD
+
+
+ _____           _                    _
+|  __ \         | |                  | |
+| |__) |_ _  ___| | ___ __ ___   ___ | |
+|  ___/ _` |/ __| |/ / '_ ` _ \ / _ \| |
+| |  | (_| | (__|   <| | | | | | (_) | |
+|_|   \__,_|\___|_|\_\_| |_| |_|\___/|_|
+                                         ___
+                  /\/\   ___ _ __ ___   / _ \___ _ __
+                 /    \ / _ \ '_ ` _ \ / /_\/ _ \ '_ \ 
+                / /\/\ \  __/ | | | | / /_ \  __/ | | |
+                \/    \/\___|_| |_| |_\____/\___|_| |_|
+
+
+###############################################################
+Stephan Schott-Verdugo 2016-11-07        VERSION: 2024.2.9
+Generated at CPCLab at Heinrich Heine University Duesseldorf
+      &      CBCLab at Forschungszentrum Juelich
+###############################################################
+
+--verbose for details of the packing process
+Preprocessing ./com.pdb. This might take a minute.
+
+ Information for packing:
+
+ Input PDB(s)                     = ['./com.pdb']
+ Output PDB                       = bilayer_com.pdb
+ Packmol output and log prefix    = packmol  
+ Lipids                           = ['POPC:CHL1']
+ Lipid ratio                      = ['9:1']  
+ Solvents                         = WAT      
+ Solvent ratio                    = 1        
+ Salt concentration            (M)= 0.15     
+ Distance to boundaries        (A)= 10.0     
+ Minimum water distance        (A)= 15.0     
+ Packmol loops                    = 20       
+ Packmol loops for All-together   = 100      
+Adding 5A padding to the sterol CHL1 components to avoid piercing in the periodic boundary
+Adding 5A padding to the sterol CHL1 components to avoid piercing in the periodic boundary
+
+Running Packmol...
+
+Processing segment 2 of 11..
+Processing segment 3 of 11
+Processing segment 4 of 11..
+Processing segment 5 of 11
+Processing segment 6 of 11
+Processing segment 7 of 11
+Processing segment 8 of 11
+Processing segment 9 of 11
+Processing segment 10 of 11
+Processing segment 11 of 11[F
+All-together Packing..........Transforming to AMBER
+Sterols were packed. Potential piercing lipid tails will be searched
+Lipid piercing finder failed. Check your structure manually in case of clashing lipid tails!
+#Packing process finished. Check your final structure, particularly for lipids inserted in proteins, protein tunnels or piercing rings!#
+
+########################################################################################################################################
+########################################################################################################################################
+DONE!

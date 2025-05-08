@@ -1,0 +1,10 @@
+parm ./com.prmtop
+trajin prod.nc  
+
+reference ./com.pdb
+autoimage
+
+rms com reference mass out rms.dat :1-408@CA,C,N time 0.01
+rms pep reference mass out rms.dat :1-37@CA,C,N time 0.01
+rms pro reference mass out rms.dat :38-408@CA,C,N time 0.01
+rms bind reference mass out rms.dat ((:1-37<:5)&(:38-408@CA,C,N))|((:38-408<:5)&(:1-37@CA,C,N))  time 0.01
